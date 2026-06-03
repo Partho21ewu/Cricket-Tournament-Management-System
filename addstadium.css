@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {font-family: Arial, Helvetica, sans-serif;
+    background:#10044A;
+    color:#fff;
+}
+.back-btn{
+    background:#DA255B;
+    padding:6px 12px;
+    border:1px solid #10044A;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.back-btn a{
+    text-decoration: none;
+    font-size: 15px;
+    color:#fff;
+    
+}
+.container{
+    width:80%;
+    margin:auto;
+}
+h3{
+    text-align: center;
+    margin:10px 0;
+}
+form{
+    width:70%;
+    margin:auto;
+}
+input[type=txt],input[type=date],input[type=number], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: #DA255B;
+    color: white;
+    padding: 15px 35px;
+    border: 1px solid #10044A;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 50%;
+}
+
+input[type=submit]:hover {
+    background-color: #e91051;
+}
+
+
+
+.logout-btn{
+    background:#DA255B;
+    padding:6px 12px;
+    border:1px solid #10044A;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.logout-btn a{
+    text-decoration: none;
+    font-size: 15px;
+    color:#fff;
+    
+}

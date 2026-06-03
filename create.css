@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body 
+    {font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no repeat;
+    background-size: 100%;
+    background:#10044A;
+    color:#fff;
+}
+.container{
+    width: 80%;
+    margin:auto;
+}
+form {border: 0px solid #f1f1f1;
+    width:60%;
+    margin:auto;
+    position:relative;
+    border:1px solid #10044A;
+}
+
+h1{font-size: 25px;
+    text-align:center;
+    margin: 20px 0;
+ }
+ label{
+    margin-bottom: 10px;
+    width: 80px;
+ }
+input[type=text],input[type=password],input[type=email] {
+    width: 50%;
+    height: 40px;
+    padding: 12px 20px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border:1px solid #10044A;
+    border-radius: 5px;
+}
+.submit{
+    background-color: #DA255B;
+    color: white;
+    padding: 12px 35px;
+    margin: 8px 0;
+    border: 1px solid #DA255B;
+    cursor: pointer;
+    margin-left: 45%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+.previousLogin{
+    text-align: center;
+    cursor: pointer;
+}
+.previousLogin a{
+    color:#fff;
+}
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}

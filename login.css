@@ -1,0 +1,87 @@
+
+body {font-family: Arial, Helvetica, sans-serif;
+      background-repeat: no repeat;
+      background-size: 100%;
+      background-color: #10044A;
+      color:#fff;
+}
+.container{
+    width:80%;
+    margin:auto;
+}
+form {border: 0px solid #f1f1f1;}
+h2{font-size: 50px;
+text-align:center; }
+input[type=text], input[type=password] {
+    width: 30%;
+    padding: 10px 20px;
+    margin: 8px 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.sub-btn{
+    background-color: #DA255B;
+    color: white;
+    padding: 12px 45px;
+    margin: 8px 0;
+    border: 1px solid #10044A;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+}
+.back-btn{
+    background:#DA255B;
+    border:1px solid #10044A;
+    border-radius: 5px;
+    padding:6px 12px;
+
+}
+.back-btn a{
+    text-decoration: none;
+    color:#fff;
+}
+button:hover {
+    opacity: 0.8;
+}
+p a{
+    color:#fff;
+}
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}

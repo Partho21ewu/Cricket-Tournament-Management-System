@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+    background: #10044A;
+    color:#fff;
+}
+.container{
+    width:80%;
+    margin:auto;
+    position:relative;
+}
+h3{
+    text-align: center;
+    padding:10px 0;
+}
+label{
+    margin-bottom: 10px;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+.back_btn{
+    background:#DA255B;
+    font-size: 15px;
+    padding:5px 12px;
+    border:1px solid #10044A;
+    border-radius: 5px;
+    margin-top: 5px;
+    overflow: hidden;
+    
+}
+.back_btn a{
+    color:#fff;
+    text-decoration: none;
+}
+
+.parts{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.part2{
+    
+    margin-left:30px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=number], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=date], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;;
+
+    margin-top: 6px;    
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit]{
+    text-align: center;
+    background:#DA255B;
+    padding:15px 60px;
+    cursor: pointer;
+    margin-left: 50%;
+    font-size: 18px;
+    border:1px solid #10044A;
+    border-radius:5px;
+}
+input[type=submit]:hover{
+    background:#88052c;
+    transition:0.5s;
+}
+input[type=file]{
+    margin-top: 10px;
+}
+.logout{
+    background: #DA255B;
+    color:#fff;
+    padding:5px 10px;
+    border:1px solid #10044A;
+    border-radius: 5px;
+    position: absolute;
+    right: 10px;
+    bottom:0;
+}
+.logout a{
+    text-decoration: none;
+}

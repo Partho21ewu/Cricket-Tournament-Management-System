@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:#10044A;
+    color:#fff;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;background-repeat: no repeat;
+  background-size: 100%;
+}
+form {border : 0px solid #f1f1f1;}
+h2{font-size: 50px;
+text-align:center; }
+button {
+    background-color: #DA255B;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+}
+.buttons{
+    text-align: center;
+    color:#fff;
+}
+.button1 , .button2{
+    min-width: 200px;
+    box-sizing: border-box;
+    color:#fff;
+    border:1px solid red;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+.buttons a{
+    text-decoration: none;
+    color:#fff;
+}

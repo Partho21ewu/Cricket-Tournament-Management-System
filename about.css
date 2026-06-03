@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    width:80%;
+    margin:auto;
+}
+body{
+    background:#10044A;
+    color:#fff;
+}
+.back-btn{
+    background:#DA255B ;
+    color:#fff;
+    padding:6px 12px;
+    border:1px solid #10044A;
+    border-radius:5px;
+    margin-top: 10px;
+}
+.back-btn a{
+    color:#fff;
+    font-size: 12px;
+    text-decoration: none;
+}
